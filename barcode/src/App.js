@@ -1,7 +1,7 @@
 import React from 'react';
-import Aufgabe1 from './Farouk';
-import Aufgabe3 from './Fabio';
-import Aufgabe4 from './Jony';
+import Aufgabe1 from './Farouk/arabisch';
+import Aufgabe3 from './Fabio/italienisch';
+import Aufgabe4 from './Jony/albanisch';
 
 function App() {
   return (
