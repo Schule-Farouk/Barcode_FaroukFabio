@@ -1,1 +1,0 @@
-# sdyahoo.com
