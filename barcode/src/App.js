@@ -2,6 +2,7 @@ import React from 'react';
 import Aufgabe1 from './Farouk/arabisch';
 import Aufgabe3 from './Fabio/italienisch';
 import Aufgabe4 from './Jony/albanisch';
+import './App.css';
 
 function App() {
   return (
