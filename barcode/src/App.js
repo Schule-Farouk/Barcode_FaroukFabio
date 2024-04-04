@@ -2,7 +2,6 @@ import React from 'react';
 import Aufgabe1 from './Farouk/arabisch';
 import Aufgabe3 from './Fabio/italienisch';
 import Aufgabe4 from './Jony/albanisch';
-import './App.css';
 
 function App() {
   return (
@@ -10,10 +9,8 @@ function App() {
       <h1>Startseite</h1> 
       <h2>Spezialitäten</h2>
       <div>
-        
-      <Farouk />
-      <Fabio />
-      <Jony />
+        <Fabio />
+     
 
       </div>
     </div>
