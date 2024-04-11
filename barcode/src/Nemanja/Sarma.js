@@ -4,6 +4,7 @@ import './serbisch.css';
 const SarmaIngredients = () => {
   return (
     <div> 
+      <img src="https://i.pinimg.com/originals/d5/36/98/d5369852979bd925bd01a75f0c289f92.jpg" alt="Bild" />
       <h1>Sarma</h1>
       <h3>ZUTATEN</h3>
       <h4>FÜR 4 PORTIONEN</h4>

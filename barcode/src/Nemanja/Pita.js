@@ -3,7 +3,9 @@ import './serbisch.css';
 
 const PitaIngredients = () => {
     return (
+      
       <div>
+         <img src="https://silberschlappi.de/wp-content/uploads/2021/02/Kaesepita.jpg" alt="Bild" />
         <h1>Pita mit Käse</h1>
         <h3>ZUTATEN</h3>
         <h4>FÜR 4 PORTIONEN</h4>
