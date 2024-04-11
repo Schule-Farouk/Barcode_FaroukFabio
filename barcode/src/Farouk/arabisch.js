@@ -2,9 +2,9 @@ import React from 'react';
 import './arabisch.css';
 
 function Farouk() {
-  return (
- 
-  );
+  return {
+   
+  };
 }
-<
+
 export default Farouk;
