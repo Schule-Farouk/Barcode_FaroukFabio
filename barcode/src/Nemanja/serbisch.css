@@ -1,0 +1,60 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe {
+  margin-bottom: 40px;
+}
+
+.recipe img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.recipe h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.recipe h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.recipe h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #888;
+}
+
+.recipe ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recipe ul li {
+  margin-bottom: 5px;
+}
+
+.recipe ul li::before {
+  content: "•";
+  margin-right: 5px;
+  color: #666;
+}
