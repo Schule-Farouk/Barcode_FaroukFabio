@@ -76,6 +76,7 @@ function App() {
           <h3>Rezept 3</h3>
           <p>Rezeptbeschreibung auf Albanisch</p>
           {/* Hier kannst du später den QR-Code für das Rezept einfügen */}
+          <Nemanja />
         </div>
       </div>
     </div>
