@@ -90,13 +90,13 @@ const Rezeptkarussell = ({ country }) => {
         qrCode: require('../qrCodes/arabisch-falafel-qr-code.png').default
       },
       {
-        name: "TESf",
+        name: "Pizza",
         description: "Klassische Pizza mit Tomatensoße, Mozzarella und Basilikum.",
         image: "https://www.scattidigusto.it/wp-content/uploads/2017/09/I-Masanielli-Martucci-Sasa-pizza-margherita.jpg",
         qrCode: require('../qrCodes/arabisch-falafel-qr-code.png').default
       },
       {
-        name: "regr",
+        name: "Risotto",
         description: "Cremiges Reisgericht, gekocht mit Brühe und verfeinert mit Parmesan.",
         image: "https://th.bing.com/th/id/R.bc89904e0959e096aabfac27051b082f?rik=RBc%2b0sUjIn5vzg&pid=ImgRaw&r=0",
         qrCode: require('../qrCodes/arabisch-falafel-qr-code.png').default

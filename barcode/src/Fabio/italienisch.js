@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import QRcode from './Image/QR.png';
+
 import './italienisch.css';
 
 const RecipePage = () => {
