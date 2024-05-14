@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Rezeptkarussell */
+.rezeptkarussell {
+  margin: 20px auto; /* Zentriert das Karussell auf der Seite */
+  max-width: 800px; /* Begrenzt die Breite des Karussells */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.recipe {
+  background-color: #fff; /* Weißer Hintergrund für jedes Rezept */
+  padding: 20px; /* Innenabstand für jedes Rezept */
+  margin-bottom: 20px; /* Abstand zwischen den Rezepten */
+  border-radius: 8px; /* Abgerundete Ecken */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Schatten für ein leichtes 3D-Effekt */
+  overflow: hidden; /* Verstecke den überlaufenden Inhalt */
+  position: relative; /* Positionierung für den QR-Code */
+}
+
+.recipe img {
+  max-width: 30%; /* Bildgröße anpassen, um sicherzustellen, dass es innerhalb des Containers bleibt */
+  height: auto; /* Automatische Höhe für das Bild */
+  border-radius: 8px; /* Abgerundete Ecken für das Bild */
+  transition: transform 0.3s; /* Füge eine Transformationsanimation hinzu */
+  cursor: pointer; /* Zeige einen Zeigercursor an, um anzuzeigen, dass das Bild interaktiv ist */
+}
+
+.recipe:hover img {
+  transform: scale(1.1); /* Vergrößere das Bild beim Hovern */
+}
+
+.recipe-content {
+  overflow: hidden; /* Verstecke den überlaufenden Inhalt */
+  position: absolute; /* Positionierung für den QR-Code */
+  top: 0; /* Oben ausrichten */
+  right: 0; /* Am rechten Rand der Box ausrichten */
+  padding-left: 20px; /* Zusätzlicher Innenabstand für den QR-Code */
+  padding-right: 20px; /* Zusätzlicher Innenabstand für den QR-Code */
+  text-align: left; /* Text links ausrichten */
+}
+
+.recipe-content h3 {
+  font-size: 20px; /* Größere Überschrift für den Rezeptnamen */
+  margin-top: 10px; /* Abstand über der Überschrift */
+  margin-bottom: 5px; /* Abstand unter der Überschrift */
+}
+
+.recipe-content p {
+  font-size: 16px; /* Textgröße für die Rezeptbeschreibung */
+  margin-bottom: 10px; /* Abstand unter der Beschreibung */
+}
+
+.recipe-content a img {
+  display: block; /* Das QR-Code-Bild als Blockelement anzeigen */
+  width: 20px; /* Breite des QR-Code-Bildes anpassen */
+  height: auto; /* Automatische Höhe für das QR-Code-Bild */
+  margin-top: 10px; /* Abstand über dem QR-Code-Bild */
 }

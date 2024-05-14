@@ -1,23 +1,7 @@
-import React, { useState } from 'react';
-
+import React from 'react';
 import './italienisch.css';
 
-const RecipePage = () => {
-  const recipes = [
-    {
-      title: 'Recipe 1',
-      ingredients: ['Ingredient 1', 'Ingredient 2', 'Ingredient 3']
-    },
-    {
-      title: 'Recipe 2',
-      ingredients: ['Ingredient 1', 'Ingredient 2', 'Ingredient 3']
-    },
-    {
-      title: 'Recipe 3',
-      ingredients: ['Ingredient 1', 'Ingredient 2', 'Ingredient 3']
-    }
-  ];
-
+const RecipePage = ({ recipes }) => {
   return (
     <div className="recipe-page">
       {recipes.map((recipe, index) => (
